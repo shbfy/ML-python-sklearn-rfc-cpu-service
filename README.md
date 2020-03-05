@@ -1,2 +1,7 @@
 # ML-python-sklearn-rfc-cpu-service
-Jenkins X quick start for training and deploying Random Forest Classification using the SciKit-Learn library
+
+Quickstart project for executing an Iris classifier using the SciKit-Learn framework on a CPU.
+
+Running `pip install requirements.txt` and then `python app.py` will start the app on localhost where the user can send GET requests to perform inference.
+
+eg .../iris/{index} where index is in the range [0:150]
